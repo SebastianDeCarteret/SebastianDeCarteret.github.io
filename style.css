@@ -90,7 +90,7 @@ content > text {
   flex-direction: column;
   justify-content: flex-start;
   overflow: auto;
-  max-height: 400px;
+  height: 400px;
 }
 .hide-content {
   display: none;
