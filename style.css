@@ -15,6 +15,24 @@ body {
   align-items: center;
   margin-top: 0px;
 }
+footer {
+  margin: 30px 15px 30px 15px;
+}
+footer .disclaimer {
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgb(255, 118, 118);
+  color: rgb(255, 218, 218);
+  border-radius: 15px;
+  text-align: center;
+  word-wrap: normal;
+}
+footer .credits {
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+  border-radius: 15px;
+  padding: 15px;
+}
 /* #### header #### */
 header > h1 {
   text-align: center;
@@ -68,8 +86,73 @@ content > text {
   padding: 0px 20px 0px 20px;
   margin: 15px;
   border-radius: 15px;
-  min-height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  overflow: auto;
+  max-height: 400px;
+}
+.hide-content {
+  display: none;
+}
+
+/* ### bio ### */
+.hide-bio {
+  display: none;
+}
+bio > h1 {
+  margin: 10px 0px 30px 0px;
+  background-color: black;
+  padding: 15px 220px 15px 220px;
+  border-radius: 15px;
+  text-align: center;
+}
+bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+bio img {
+  width: 200px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+bio p {
+  margin: 10px;
+  max-width: 50vw;
+  background-color: black;
+  padding: 15px;
+  border-radius: 15px;
+  min-height: 170px;
+  overflow: auto;
+  max-height: 170px;
+}
+
+bike {
+  display: flex;
+  align-items: center;
+}
+coffee {
+  display: flex;
+  align-items: center;
+}
+paddleboard {
+  display: flex;
+  align-items: center;
+}
+
+/* ### experience ### */
+.hide-experience {
+  display: none;
+}
+
+/* ### portfolio ### */
+.hide-portfolio {
+  display: none;
 }
