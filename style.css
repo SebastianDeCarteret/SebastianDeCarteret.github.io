@@ -101,11 +101,12 @@ content > text {
   display: none;
 }
 bio > h1 {
-  margin: 10px 0px 30px 0px;
+  margin: 10px 10px 30px 10px;
   background-color: black;
   padding: 15px 220px 15px 220px;
   border-radius: 15px;
   text-align: center;
+  width: -webkit-fill-available;
 }
 bio {
   display: flex;
@@ -150,6 +151,54 @@ paddleboard {
 /* ### experience ### */
 .hide-experience {
   display: none;
+}
+
+experience > h1 {
+  margin: 10px 10px 30px 10px;
+  background-color: black;
+  padding: 15px 220px 15px 220px;
+  border-radius: 15px;
+  text-align: center;
+  width: -webkit-fill-available;
+}
+experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+experience img {
+  width: 200px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+experience p {
+  margin: 10px;
+  max-width: 50vw;
+  background-color: black;
+  padding: 15px;
+  border-radius: 15px;
+  min-height: 170px;
+  overflow: auto;
+  max-height: 170px;
+}
+
+react {
+  display: flex;
+  align-items: center;
+}
+csharp {
+  display: flex;
+  align-items: center;
+}
+vanilla {
+  display: flex;
+  align-items: center;
 }
 
 /* ### portfolio ### */
